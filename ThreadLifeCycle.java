@@ -10,8 +10,6 @@ public class ThreadLifeCycle {
 
         worker.start();
 
-        Thread.sleep(200);
-
         System.out.println("After start(): " + worker.currentThread().getName());
 
         worker.join();
