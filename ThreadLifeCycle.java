@@ -18,6 +18,7 @@ public class ThreadLifeCycle {
         System.out.println("After join(): " + worker.currentThread().getName());
         System.out.println("After join(): " + worker.currentThread().getName());
         System.out.println("After join(): " + worker.currentThread().getName());
+        System.out.println("After join(): "+ worker.currentThread().getName());
 
     }
 
